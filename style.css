@@ -9,7 +9,7 @@ body {
 
 img:hover {
   border: solid 5px yellow;
-  opacity: 0.5;
+  opacity: 1.0;
   width: 250px;
 }
 
