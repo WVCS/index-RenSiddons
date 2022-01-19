@@ -15,4 +15,5 @@ img:hover {
 
 img {
   border: solid 5px LightGray;
+  opacity: 0.5;
 }
