@@ -5,3 +5,27 @@ h1 {
 body {
   background-color: #F49390;
 }
+
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #FFFD82;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.nav {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+
+li a:hover {
+  background-color: #FF9B71;
+}
