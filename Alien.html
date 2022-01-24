@@ -11,9 +11,14 @@
 <body>
   
   <center>
+  <nav>
+    <li class="nav"><a href="index.html"> HOME </a></li>
+    <li class="nav"><a href="Alien.html"> NOUN </a></li>
+    </nav>
+  <br>
+  <br>
   <h1> AN ALIEN'S GUIDE TO EARTH </h1>
   <h3> Everything you will need to know to survive and thrive on the planet Earth. </h3>
-  </center>
   
    <h1> PART 1: WHY SHOULD I CARE? </h1>
   
@@ -33,7 +38,7 @@
   </div>
   
   <div id="Humans">
-    <img src= "Human but okay for school (1).png" width=485px>
+    <img src= "Human but okay for school.png" width=485px>
     <h4>
       This is a Terran. Terrans are the native speicies of Earth. They are named after
       <br> the word for "Earth" in an ancient Terran language.
@@ -45,53 +50,122 @@
       <br> Recommended gear when contacting Terrans:
       <br> Full protective suit
       <br> High strength tranqualizers
-      <br> High utility first aid kit\
+      <br> High utility first aid kit
       <br>
-      <br> Do not attempt to make violent contact with Terrans in any way. As mentioned,
-      <br> Terrans are extremely hostile and have unlocked the power of the atom.
+      <br> Do not attempt to make violent contact with Terrans in any way. As mentioned
+      <br> above, Terrans are extremely hostile and have unlocked the power of the atom.
       <br> Contact with Terrans in general is largely discouraged.
     </h4>
   </div>
   
-  <div id="Wildlife">
-    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" width=485px>
-    <h4>
-      Odd
-    </h4>
-  </div>
-       
+  <div id="Fauna">
+    <img src= "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" width=485px>
+    <h3> Seen above: A native predator to Earth
+      </div>
+    
+    <div id="Table"> 
+      <h1> PART 2: WHAT SHOULD YOU DO IF...? </h1>
+      <table>
+       <tr>
+         <th> If you encounter </th>
+         <th> Do not </th>
+         <th> Do </th>
+         <th> Worst-case </th>
+         <th> Extra notes </th>
+      </tr>
+      <tr>
+        <td> A Terran </td>
+        <td> Panic, appear agressive </td>
+        <td> Remain calm, attempt to communicate </td>
+        <td> Escape at all costs, do not attempt combat </td>
+        <th> Terrans do not seem to like the concept of alien visitors </td>
+        </tr>
+        <tr>
+          <td> An Earth predator </td>
+          <td> Move quickly, frighten </td>
+          <td> Follow standard protocals* </td>
+          <td> Eliminate predator </td>
+          <td> *Found within your standard issue military instruction manual </td>
+        </tr>
+        <tr>
+          <td> Terran civilization </td>
+          <td> Enter without warning, assault </td>
+          <td> Observe from distance </td>
+          <td> Alert command </td>
+          <td> Full extend of Terran weaponry is unknown at this point </td>
+        </tr>
+        <tr>
+          <td> Terran pathogen </td>
+          <td> Return to command, make contact </td>
+          <td> Remain alone, allow pathogen to pass </td>
+          <td> Allow Pathogen to kill you </td>
+          <td> Even terrans have not mastered this it seems </td>
+        </tr>
+      </table>
+      
+           
+           </center>
 </body>
 </html>
 
 <style>
  body {
-  background-color: #4B3B47;
+  background-color: #2D3047;
 }
 
 h1 {
-  color: #19647E;
+  color: #1B998B;
   text-decoration: underline;
 }
 
 h3 {
-  color: #28AFB0;
+  color: #FF9B71;
 }
 
 h4 {
-  color: #28AFB0
+  color: #FF9B71;
 }
 
-#Earth {
-  float: left
+h3 {
+  color: #FF9B71;
+  text-decoration: overline;
 }
 
-#Humans {
-  float: center;
-  margin-left: 655px;
+table, th, td {
+  border: solid black;
+  border-collapse: collapse;
 }
 
-#Wildlife {
-  float: right;
+th {
+  height: 30px; 
+}
 
+th, td {
+  padding: 6px;
+  color: #FF9B71;
+}
+
+nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #FFFD82;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.nav {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+
+li a:hover {
+  background-color: #FF9B71;
 }
 </style>
