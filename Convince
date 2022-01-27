@@ -19,13 +19,14 @@
 <style>
 body {
   background-color: #ABFF4F;
-  background-image: Convince-Background.png;
+  background-image: url("Convince-Background.png");
 }
 
- nav {
+nav {
   list-style-type: none;
   position: fixed;
   background-color: #FFFDFD;
+  background-image: url("Background-Circle-4.png");
   width: 100%;
   left: 0;
   top: 0;
