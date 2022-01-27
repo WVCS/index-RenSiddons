@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <nav>
+    <li class="nav"><a href="index.html"> HOME </a></li>
+    <li class="nav"><a href="Alien.html"> NOUN </a></li>
+    </nav>
+  
+</body>
+</html>
+
+<style>
+body {
+  background-color: #ABFF4F;
+  background-image: Convince-Background.png;
+}
+
+ nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #FFFDFD;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.nav {
+  display: inline;
+  padding: 5px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  text-shadow: 0 0 10px black;
+}
+
+li a:hover {
+  color: Red;
+}
+</style>
