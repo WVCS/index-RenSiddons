@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <nav>
+    <li style="float:left" class="nav"><a href="index.html"> HOME </a></li>
+    <li class="nav"><a href="#forward"> FORWARD </a></li>
+    </nav>
+  <br>
+  <br>
+  <br>
+<div class="grid-container">
+  <div class="item1"> ABOUT US:
+    <br>
+    <br> Welcome to "we sell rotten meat" where we sell rotten meat. Awful taste garunteed and food poisoning to be expected. </div>
+  <div class="item2">
+    <br>
+    <br>
+    <br>
+    Menu is ordered in list of age 
+  <ol>
+    <li> 1 days old: $1 </li>
+    <li> 3 days old: $3 </li>
+    <li> 1 week old: $7 </li>
+    <li> 2 weeks old: $14 </li>
+    <li> 1 month old: $30-$31 </li>
+  </div>
+  <div class="item3"> RAVING REVIEWS!
+    <br>
+      <br> ★☆☆☆☆ Gave me food poisoning and refused to respond to any of my calls
+    <br>
+    <br> ★★☆☆☆ Took my son to We Sell Rotten Meat for his birthday, he got sick and hasn't left the house in days. Fly-y the Fly was pretty cool though.
+    <br>
+    <br> ★☆☆☆☆ I'd give negative 5 stars if I could.
+    <br>
+    <br> ★★☆☆☆ Food was cheap
+    <br>
+    <br> ★★★★★ I <i> LOVE </i> eating at We Sell Rotten Meat! I go there once a week at least. Over time I've built up an immunity to food poisoning and the food tastes fine if you ignore the bad taste.
+    </div>  
+  <div class="item4"> FOR LEGAL CONCERNS
+    <br>
+      <br> We Sell Rotten Meat is not legally responsible for any food poisoning gained from eating from our menu. If you feel that eating at We Sell Rotten Meat led to food poisoning, that's too bad for you!
+    </div>
+  <div class="item5"> HISTORY: We were founded as a not so suble money laundering scheme. We wanted to minimize expenses and maximize profits, so we decided to just take old meat from the dumpsters of other restaurants and sell it at a price of almost $0. </div>
+</div>
+  <div id="deals">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1 align="left"> FEBURARY SPECIAL </h1>
+  <h2 align="right"> For the month of February only, our Month-old Steak is $28! </h2>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </div>
+  </body>
+</html>
+  
+<style>
+  nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: #CBD2D0;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.nav {
+  display: inline;
+  padding: 5px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 0 20px black;
+}
+
+li a:hover {
+  color: Red;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-image: url("https://media.istockphoto.com/photos/paper-napkin-seamless-background-texture-picture-id539138803");
+  padding: 10px;
+  margin-top: -0.3%;
+  margin-left: -0.4%;
+  margin-right: -0.4%;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+body {
+  background-color: #F5B700;
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1023362641/thumb/6.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  </style>
