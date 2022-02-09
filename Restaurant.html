@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> We Sell Rotten Meat </title>
-  <link rel="icon" href="1-day-old.png">
+  <title> Document </title>
 </head>
 <body>
   
@@ -73,7 +72,7 @@
   <br>
   <br>
   <br>
-  <h1 align="left"> FEBURARY SPECIAL </h1>
+  <h1 align="left"> FEBURARY SPECIAL: </h1>
   <h2 align="left"> For the month of February only, our Month-old Steak is $28! </h2>
   <br>
   <br>
@@ -89,17 +88,20 @@
   <br>
   </div>
   
-  <div class="grid-container" id="Menu1">
-  <div class="grid-item"> <img src="1-day-old.png" width=100px> </div>
-  <div class="grid-item" align="center"> Our youngest steak, collected yesterday. Taste is oftentimes fresher and food poisoning is uncommon. </div>
-    <div class="grid-item" align="right"> $1 </div>
-  </div>
+<div class="grid-container" id="menu">
+  <h1 id="ourmenu"> OUR MENU </h1>
+  <div class="grid-item" id="1-day"> <img src="1-day-old.png"> 1 Day Old Steak <br> $1 </div>
+  <div class="grid-item" id="3-day"> <img src="3-day-old.png"> 3 Day Old Steak <br> $2 </div>
+  <div class="grid-item" id="1-week"> <img src="1-week-old.png"> 1 Week Old Steak <br> $7 </div>  
+  <div class="grid-item" id="2-week">> <img src="2-week-old.png"> 2 Week Old Steak <br> $14 </div>
+  <div class="grid-item" id="1-month">> <img src="1-month-old.png"> 1 Month Old Steak <br> <del> $30 </del> $28 </div>
+</div>
   
   </body>
 </html>
   
 <style>
-  nav {
+ nav {
   list-style-type: none;
   position: fixed;
   background-color: #CBD2D0;
@@ -127,10 +129,12 @@ li a:hover {
 
 h1 {
   font-size: 50px;
+  color: white;
 }
 
 h2 {
   font-size: 30px;
+  color: white;
 }
 
 .item1 { grid-area: header; }
@@ -170,11 +174,36 @@ body {
 
 #menu1 {
   background-image: url("https://media.istockphoto.com/photos/paper-napkin-seamless-background-texture-picture-id539138803");
+  width: 100%;
+  grid-template-columns: 100px 200px 100px;
+  display: grid;
 }
-  
-  img {
+
+#deals {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+img {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#ourmenu {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
   </style>
