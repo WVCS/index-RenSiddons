@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> We Sell Rotten Meat </title>
-  <link rel="icon" href="1-month-old.png">
+  <link rel="icon" href="1-month-old">
 </head>
 <body>
   
@@ -16,7 +16,7 @@
   <br>
   <br>
   <br>
-<div class="grid-container">
+<div class="grid-container" id="about">
   <div class="item1"> ABOUT US:
     <br>
     <br> Welcome to "we sell rotten meat" where we sell rotten meat. Awful taste guaranteed and food poisoning to be expected. </div>
@@ -91,12 +91,19 @@
   
 <div class="grid-container" id="menu">
   <h1 id="ourmenu"> OUR MENU </h1>
-  <img src="1-day-old.png" width=125px> <div class="grid-item" id="1-day"> 1 Day Old Steak <br> $1 </div>
-  <img src="3-day-old.png" width=125px> <div class="grid-item" id="3-day"> 3 Day Old Steak <br> $2 </div>
-  <br> <img src="1-week-old.png" width=125px> <div class="grid-item" id="1-week"> 1 Week Old Steak <br> $7 </div>  
-  <img src="2-week-old.png" width=125px> <div class="grid-item" id="2-week"> 2 Week Old Steak <br> $14 </div>
-  <img src="1-month-old.png" width=125px> <div class="grid-item" id="1-month"> 1 Month Old Steak <br> <del> $30 </del> $28 </div>
+  <img src="1-day-old.png" width=125px align="right"> <div class="grid-item" id="1-day"> 1 Day Old Steak <br> $1 </div>
+  <br> <img src="3-day-old.png" width=125px align="right"> <div class="grid-item" id="3-day"> 3 Day Old Steak <br> $2 </div>
+  <br> <img src="1-week-old.png" width=125px align="right"> <div class="grid-item" id="1-week"> 1 Week Old Steak <br> $7 </div>  
+  <br> <img src="2-week-old.png" width=125px align="right"> <div class="grid-item" id="2-week"> 2 Week Old Steak <br> $14 </div>
+  <br> <img src="1-month-old.png" width=125px align="right"> <div class="grid-item" id="1-month"> 1 Month Old Steak <br> <del> $30 </del> $28 </div>
 </div>
+  
+  <div id="ad" class="grid-container">
+    
+    <h1 align="left" color="red"> BUY OUR APP IDIOT! </h1>
+    <img src="App-ad.png" width="1000px" align="right">
+    
+  </div>
   
   </body>
 </html>
@@ -150,8 +157,8 @@ h2 {
     'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';
+    background-image: url("https://t4.ftcdn.net/jpg/00/61/37/17/360_F_61371722_dZ5kjLpSQtPdNxhoXbddLfuLqWfVLSEp.jpg");
   grid-gap: 10px;
-  background-image: url("https://media.istockphoto.com/photos/paper-napkin-seamless-background-texture-picture-id539138803");
   padding: 10px;
   margin-top: -0.3%;
   margin-left: -0.4%;
@@ -174,7 +181,7 @@ body {
 }
 
 #menu1 {
-  background-image: url("https://media.istockphoto.com/photos/paper-napkin-seamless-background-texture-picture-id539138803");
+  background-image: url("https://t4.ftcdn.net/jpg/00/61/37/17/360_F_61371722_dZ5kjLpSQtPdNxhoXbddLfuLqWfVLSEp.jpg");
   width: 100%;
   grid-template-columns: 100px 200px 100px;
   display: grid;
@@ -188,6 +195,7 @@ img {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
+  clip: rect(0px,500px,500px,0px);
 }
 
 .grid-container {
@@ -198,7 +206,6 @@ img {
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -207,8 +214,9 @@ img {
 #ourmenu {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-  
-  img {
-    float: center;
-    {
+
+#ad {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-bottom: -0.4%
+}
   </style>
