@@ -27,15 +27,15 @@
     
     <div class="grid">
 	<div class="aspect-box">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/The_Earth_seen_from_Apollo_17_with_transparent_background.png/772px-The_Earth_seen_from_Apollo_17_with_transparent_background.png"> 
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/The_Earth_seen_from_Apollo_17_with_transparent_background.png/772px-The_Earth_seen_from_Apollo_17_with_transparent_background.png" width=100px> 
          <br> NOUN PROJECT
 	</div>
 	<div class="aspect-box">
-		<img src="Lonely-Survivor.png">
+		<img src="Lonely-Survivor.png" width=100px>
          <br> CONVINCE PROJECT
 	</div>
 	<div class="aspect-box">
-		<img src="1-day-old.png"> 
+		<img src="1-day-old.png" width=100px> 
          <br> RESTAURANT
 </div>
     
@@ -79,6 +79,20 @@ body {
   background-image: url("Home-Background.png");
 }
 
+	    .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 200px);
+	gap: 1.5rem;
+	justify-content: center;
+	flex: 0 0 100%;
+}
+
+.aspect-box {
+	aspect-ratio: 3 / 2;
+	padding: 1.5rem;
+	border-radius: 1.5rem;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgb(0 0 0 / 0.05), 0.15rem 0.15rem 0.75rem rgb(0 0 0 / 0.1);
+}
     </style>
     
 </html>
