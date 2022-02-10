@@ -77,9 +77,32 @@ li a:hover {
 body {
   background-color: #0B3C49;
   background-image: url("Home-Background.png");
+  margin: 0;
+	padding: 1rem;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+* {
+	box-sizing: border-box;
 }
 
-	    .grid {
+body {
+	margin: 0;
+	padding: 1rem;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 200px);
 	gap: 1.5rem;
@@ -92,16 +115,6 @@ body {
 	padding: 1.5rem;
 	border-radius: 1.5rem;
 	box-shadow: 0.1rem 0.1rem 0.5rem rgb(0 0 0 / 0.05), 0.15rem 0.15rem 0.75rem rgb(0 0 0 / 0.1);
-}
-	    
-	    img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
 }
     </style>
     
