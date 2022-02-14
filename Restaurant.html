@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> We Sell Rotten Meat </title>
-  <link rel="icon" href="1-month-old.png">
+  <link rel="icon" href="1-month-old">
 </head>
 <body>
   
@@ -46,7 +46,10 @@
 <div class="grid-container" id="about">
   <div class="item1"> ABOUT US:
     <br>
-    <br> Welcome to "We Sell Rotten Meat" where we sell rotten meat. Awful taste guaranteed and food poisoning to be expected. </div>
+    <br> Welcome to "we sell rotten meat" where we sell rotten meat. Awful taste guaranteed and food poisoning to be expected. 
+  <br>
+    <br> Hours: 24/7
+  </div>
   <div class="item2">
     <br>
     <br>
@@ -116,19 +119,29 @@
   <br>
   </div>
   
-<div class="grid-container" id="menu">
-  <h1 id="ourmenu"> OUR MENU </h1>
-  <img src="1-day-old.png" width=125px align="right"> <div class="grid-item" id="1-day"> 1 Day Old Steak <br> $1 </div>
-  <br> <img src="3-day-old.png" width=125px align="right"> <div class="grid-item" id="3-day"> 3 Day Old Steak <br> $2 </div>
-  <br> <img src="1-week-old.png" width=125px align="right"> <div class="grid-item" id="1-week"> 1 Week Old Steak <br> $7 </div>  
-  <br> <img src="2-week-old.png" width=125px align="right"> <div class="grid-item" id="2-week"> 2 Week Old Steak <br> $14 </div>
-  <br> <img src="1-month-old.png" width=125px align="right"> <div class="grid-item" id="1-month"> 1 Month Old Steak <br> <del> $30 </del> $28 </div>
-</div>
+<div class="wrapper" id="menu">
+  <div class="A" align="center" id="ourmenu"> MENU </div>
+  <div class="B" align="center"> <img src="1-day-old.png" width=125px> </div>
+  <div class="C" align="center"> 1 Day Old Steak </div>
+  <div class="D" align="center"> $1 </div>
+  <div class="E" align="center"> <img src="3-day-old.png" width=125px> </div>
+  <div class="F" align="center"> 3 Day Old Steak </div>
+  <div class="G" align="center"> $3 </div>
+  <div class="H" align="center"> <img src="1-week-old.png" width=125px> </div>
+  <div class="I" align="center"> 1 Week Old Steak </div>
+  <div class="J" align="center"> $7 </div>
+  <div class="H" align="center"> <img src="2-week-old.png" width=125px> </div>
+  <div class="I" align="center"> 2 Week Old Steak </div>
+  <div class="J" align="center"> $14 </div>
+  <div class="H" align="center"> <img src="1-month-old.png" width=125px> </div>
+  <div class="I" align="center"> 1 Month Old Steak </div>
+  <div class="J" align="center"> <del> $30 </del> $28 </div>
+  </div>
   
   <div id="ad">
     
-    <h1 align="left" color="red"> BUY OUR APP IDIOT! <img src="App-ad.png" width="1000px" align="right"> </h1>
-    
+    <h1 align="left" color="red"> BUY OUR APP IDIOT! </h1>
+    <img src="App-ad.png" width="1000px" align="right">
     
   </div>
   
@@ -238,8 +251,9 @@ img {
   text-align: center;
 }
 
-#ourmenu {
+.A {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: white;
 }
 
 #ad {
@@ -315,6 +329,94 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+
+.wrapper {
+  display: grid;
+  height: 90vh;
+  grid-template:
+    "A B C" auto
+    "D E F"
+    "G H I";
+  grid-template-columns: 10% 78% 10%;
+  font-size: 50px;
+  color: #523F38;
+  grid-row-gap: 3%;
+  grid-column-gap: 1%;
+  background-image: url("https://t4.ftcdn.net/jpg/00/61/37/17/360_F_61371722_dZ5kjLpSQtPdNxhoXbddLfuLqWfVLSEp.jpg");
+  padding: 10px;
+}
+
+.A {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column: 1 / 4;
+  font-color: white;
+}
+
+.B {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.C {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.D {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.E {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.F {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.G {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.H {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.I {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.J {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
   </style>
   
