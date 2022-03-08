@@ -1,4 +1,217 @@
-<html>
-  <a href="../index.html"> TEST TO HOME </a>
-  PLACEHOLDER FOR EVENT SITE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Minimalist Conference </title>
+  <link rel="icon" href="Event-Logo">
+</head>
+<body>
+  <br>
+  <nav>
+         <center>
+    <li class="nav"><a href="#about"> ABOUT US </li></a>
+  <li class="nav"><a href="#info"> INFO </li></a>
+  <li class="nav"><a href="#requirements"> REQUIRE-MENTS </li></a>
+<li class="nav"><a href="https://cdn1.vectorstock.com/i/1000x1000/90/25/hi-word-vector-17359025.jpg"> BOOK TICKETS </li></a>
+<a href="../index.html"> HOME </a>
+</center>
+  </nav>
+  <img src="https://assets-global.website-files.com/6005fac27a49a9cd477afb63/6057684e5923ad2ae43c8150_bavassano_homepage_before.jpg" width="285px" align="right">
+   <div class="title">
+     <h1> A new world of minimalism </h1>
+  </div>
+  <div class="everything">
+  <div class="wrapper1">
+    <div class="about-title">
+      <h1> About </h1>
+    </div>
+    <div id="about">
+      <h1 align="right"> 
+        <br>
+        <br>
+        Every year, the worlds leading companies of minimalism come together to share the new ideas, advancements, and events with the minimalism loving world. </h1>
+    </div>
+  </div>
+    
+    <div class="wrapper-info">
+      <div id="info">
+        <h1> 163 Park Drive <br> Bakersfield, CA 93306
+          <br> July 1, 2022
+          <br> 10 AM - 10PM
+          <br> Event will be livestreamed
+      </div>
+      <div class="info-title">
+        <h1 align="right"> INFORMATION </h1>
+      </div>
+      </div>
+      
+      <div class="wrapper-requirements">
+        <div class="requirements-title"> <h1> REQUIREMENTS </h1> </div>
+        <div id="requirements" align="right"> <h1> <ins> Dress Code </ins> <br> <br> Single-color clothing <br> No accessories (belts, watches, necklaces) <br> Glasses are okay <br> No phone <br> No jackets <br> <br> <ins> Required Items </ins> <br> <br> Lanyard with pass <br> Ticket </h1> </div>
+      </div>
+      
+      <div id="countdown">
+        <p id="demo"></p>
+      </div>
+</body>
 </html>
+
+<style>
+  .title {
+  background-color: #A9F0D1;
+  font-size: 50px;
+  height: 1500px;
+  margin-top: -3.6%;
+  margin-left: -0.4%;
+  margin-right: -0.4%;
+  align-items: center;
+  display: flex;
+  width: 99vw;
+}
+
+.wrapper1 {
+  display: flex;
+  background-color: #8C5E58;
+  margin-left: -0.4%;
+  margin-right: -0.4%;
+  height: 2000px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-title {
+  font-size: 50px;
+  width: 70vw;
+}
+
+#about {
+  width: 29vw;
+}
+
+nav {
+  position: absolute;
+  background-color: #FFA69E;
+  width: 15vw;
+  border: solid 5px salmon;
+  border-radius: 30px;
+  list-style-type: none;
+  z-index: 3;
+  font-size: 50px;
+}
+
+.nav {
+  padding: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF7F8;
+}
+
+li a:hover {
+  color: salmon;
+}
+
+.wrapper-info {
+  display: flex;
+  background-color: #FF7E6B;
+  margin-left: -0.4%;
+  margin-right: -0.4%;
+  height: 2000px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-title {
+  font-size: 35px;
+}
+
+.info {
+  font-size: 15px;
+}
+
+.wrapper-requirements {
+  display: flex;
+  background-color: #89AAE6;
+  margin-left: -0.4%;
+  margin-right: -0.4%;
+  height: 2000px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.requirements-title {
+  font-size: 35px;
+}
+
+img {
+  z-index: 100;
+  float: right;
+  position: sticky;
+  top: 2px;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper1 {
+    flex-direction: column;
+    height: 800px;
+  }
+  
+  .wrapper-info {
+    flex-direction: column-reverse;
+    height: 800px;
+  }
+  
+  .wrapper-requirements {
+    flex-direction: column;
+    height: 800px;
+  }
+}
+
+body {
+  background-color: #A9F0D1;
+}
+
+#countdown {
+  font-size: 100px;
+  background-color: #FFF7F8;
+  text-align: center;
+  height: 500px;
+  margin-top: -5.3%;
+  margin-left: -0.4%;
+  margin-right: -0.4%;
+  margin-bottom: -0.4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8C5E58;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+</style>
+
+<script>
+  var countDownDate = new Date("Jul 1, 2022 10:0:0").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
