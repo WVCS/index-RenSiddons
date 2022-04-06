@@ -1,1 +1,45 @@
+body {
+  background-color: #7e6e39;
+  margin: 0;
+}
 
+.about {
+  width: 70vw;
+  border: 2px solid #af7939;
+  border-radius: 10px;
+}
+
+#about-title {
+  background-color: #af7939;
+  width: 70vw;
+  border-radius: 10px;
+  margin-top: -0.3%;
+}
+
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  color: #f9f2df;
+  background: rgb(140,77,29);
+background: radial-gradient(circle, rgba(140,77,29,1) 0%, rgba(82,71,20,1) 100%);
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border-radius: 50%;
+  height: 70px;
+  background-color: #7e6e39;
+  border: none;
+}
+
+button:hover {
+  cursor:pointer;
+}
