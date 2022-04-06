@@ -24,6 +24,7 @@ nav {
   list-style-type: none;
   background-color: #afabaa;
   width: 100%;
+  height: 42px;
 }
 
 .navClass {
@@ -36,16 +37,18 @@ nav {
 a {
   text-decoration: none;
   color: #160c0d;
-  font-size: 15px;
+  font-size: 28.58px;
 }
 
 li a:hover {
   background-color: #5d3738;
   height: 100%;
+  color: #f9f2df;
 }
 
 .navClass:hover {
   background-color: #5d3738;
+  border-radius: 10px;
 }
 
 .about {
