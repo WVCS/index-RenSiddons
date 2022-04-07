@@ -7,6 +7,7 @@ body {
   width: 70vw;
   border: 2px solid #af7939;
   border-radius: 10px;
+  color: #e8d2b4;
 }
 
 #about-title {
@@ -34,7 +35,6 @@ background: radial-gradient(circle, rgba(140,77,29,1) 0%, rgba(82,71,20,1) 100%)
 }
 
 button {
-  border-radius: 50%;
   height: 70px;
   background-color: #7e6e39;
   border: none;
@@ -43,3 +43,48 @@ button {
 button:hover {
   cursor:pointer;
 }
+
+.dropbtn {
+  color: #e8d2b4;
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  background-color: #af7939;
+  width: 70vw;
+  height: 40%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 70vw;
+  font-size: 20px;
+  left: 51%;
+  transform: translateX(-51%);
+  border: 2px solid #af7939;
+  color: #e8d2b4;
+  background-color: #8c4d1d;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
