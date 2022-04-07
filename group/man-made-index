@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ORGANIC PAROBs </title>
+   <link rel="stylesheet" href="style3.css">
+  <link rel="icon" href="DWS Logo Simple.png">
+</head>
+<body>
+  
+  <div id="title">
+<img src="https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/group/DWS%20Logo%20Final%203.png" height="200px">
+    <h1> Man-Made <br> PAROBs </h1>
+  </div>
+  
+  <button type="button" name="button" onclick="location.href='index.html'"> <img src="https://cdn.iconscout.com/icon/free/png-256/back-arrow-1767515-1502579.png" height="50px"> </button> </h1>
+  
+  <center>
+  <div class="about">
+    <h1 id="about-title">
+      ABOUT Man-Made PAROBs
+    </h1>
+    <h2 id="about">
+     Artificial PAROBs are PAROBs composed of materials that are non-organic, such as refined metals.
+    </h2>
+    </div>
+    <br>
+    <br>
+    <br>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">PAROB 5: "Infinite Factory"</button>
+  <div id="myDropdown" class="dropdown-content">
+    <div id="PAROB 1">
+<b> Description: </b> PAROB 5 resembles a warehouse located in the middle of the Amazon Rainforest. Inside of PAROB 5 is a single machine, with “input” on one end and “output” on the other. Located on a standalone table nearby the machine is a keyboard and screen. Any object can be placed into the “input” section, and the machine will be able to convert that object into another object of the same or lesser atomic weight. PAROB 5 is not limited to only creating objects that already exist, nor is it limited to objects with finite amounts, such as precious metals or rare elements. 
+<br>
+<br>
+<b> History: </b> PAROB 5 was created in an attempt to end world hunger in 2005. It was used this way for nearly 10 years, before █​​███████ ████ sieges left the location under their control. The group continued to use PAROB 5 as a means to mass produce weapons for over 3 years before the DWS decided to fully destroy PAROB 5 by means of bombs. Many scoutings of the area have revealed that the device is still functional, although heavily damaged.
+    </div>
+  </div>
+</div>
+    <br>
+    <br>
+    <br>
+    <div class="dropdown">
+  <button onclick="myFunction2()" class="dropbtn">PAROB 6: "Stealth Knife"</button>
+  <div id="myDropdown2" class="dropdown-content">
+    <div id="PAROB 2">
+<b> Description: </b> PAROB 6 resembles a standard military-grade knife, roughly 8 inches in length, PAROB 6 possesses a sharp end alongside a serrated edge. When held, the holder is entirely invisible, with no visuals, video, or even thermal imaging being able to pick them up. This effect only applies to being physically held, and any other contact with skin does not have this effect.
+      <br>
+      <br>
+      <b> History: </b> PAROB 6 was initially created by the US government in order to aid in battle, during peacetime however, it was stored at a DWS site in [REDACTED], after this location underwent a series of raids from the ​​███████ ████ which left the site a ruin, PAROB 6 has not been seen, either within the ruins, or being utilized by the ​​███████ ████. It is currently unknown the whereabouts of PAROB 6, or if it even still remains intact.
+    </div>
+  </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="dropdown">
+  <button onclick="myFunction3()" class="dropbtn">PAROB 7: "GEPS"</button>
+  <div id="myDropdown3" class="dropdown-content">
+    <div id="PAROB 3">
+<b> Description: </b> PAROB 7 is a small handheld device, roughly 5 inches in diameter, the front of the device is covered by a large screen. A label at the top reads “Global Exact Positioning System”. The device functions almost exactly the same as a traditional GPS, however it has the added capability of being able to track any person or thing, with a margin of error of approximately 3 feet.
+      <br>
+      <br>
+      <b> History: </b> PAROB 7 was created by the UN in an attempt to find any missing person. It was successfully utilized as such for 7 years until being stolen by a UN member suspected to be a part of the ​​███████ ████, it has not been seen since.
+    </div>
+  </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="dropdown">
+  <button onclick="myFunction4()" class="dropbtn">PAROB 8: "Ultra-Railway Train 2"</button>
+  <div id="myDropdown4" class="dropdown-content">
+    <div id="PAROB 4">
+<b> Description: </b> PAROB 8 is a train that is capable of going to any location, regardless of limitations of traditional railways nor the capabilities of current human travel. PAROB 8 is even reportedly capable of traveling to locations outside of known reality. Visually, PAROB 8 resembles an A2 Class steam locomotive, painted bright teal, the words “Ultra-Railway Train 2” are painted on the side. It is currently unknown where Ultra-Railway Train 1 is, if it even exists.
+<br>
+<br>
+PAROB 8 is capable of using anything as a fuel source, including things that have limited or a complete lack of value or efficiency as an actual fuel source. Testing of this feature has revealed that water, dirt, and paper have all been just as effective, if not more effective, than coal would in a traditional steam locomotive.
+
+      <br>
+      <br>
+      <b> History: </b> PAROB 8 was created by the UN as a set of preliminary testing into technology that gave access to alternate dimensions. Before the creation of PAROB 8, the only method the UN had to access alternate dimensions was a singular portal located at their headquarters. In one dimension accessed, the UN found PAROB 8, and proceeded to use it for another 39 years before an attack by the ███████ ████ that was focused on PAROB 8 left it in their control. PAROB 8 has been used by the ███████ ████ as their main source of transportation.
+    </div>
+  </div>
+    </div>
+  </center>
+  
+</body>
+</html>
