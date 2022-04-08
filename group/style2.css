@@ -31,8 +31,7 @@ img {
   color: #f9f2df;
   background: rgb(140,77,29);
 background: radial-gradient(circle, rgba(140,77,29,1) 0%, rgba(82,71,20,1) 100%);
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
 
 button {
