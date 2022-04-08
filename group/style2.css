@@ -87,3 +87,13 @@ button:hover {
 .dropdown-content a:hover {background-color: #ddd}
 
 .show {display:block;}
+
+#PAROBIMAGE {
+  border: 2px solid #af7939; 
+}
+
+#caption {
+  border: 2px solid #af7939;
+  margin-top: -0.5%;
+  left: -0.1%;
+}
