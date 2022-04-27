@@ -1,0 +1,37 @@
+#title {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/amusement/Looby.png");
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  background-color: #7a9ee6;
+}
+
+#about {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/amusement/TX_FreddyLogo_White.png");
+  background-size: contain;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  width: 50%;
+  background-position: center;
+  background-color: #ffeb59;
+  border: 7px solid #eca316;
+  border-radius: 40px;
+  padding: 20px 50px;
+}
+
+#logo {
+  width: 30%;
+  transform: translate(0%, 10%);
+}
+
+#title2 {
+  font-size: 50px;
+}
+
+#fineprint {
+  font-size: 10px;
+}
