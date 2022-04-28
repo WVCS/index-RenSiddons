@@ -21,6 +21,7 @@ body {
   border: 7px solid #eca316;
   border-radius: 40px;
   padding: 20px 50px;
+  margin-bottom: 20%;
 }
 
 #logo {
@@ -34,4 +35,89 @@ body {
 
 #fineprint {
   font-size: 10px;
+}
+
+#rockstar-row {
+  font-size: 35px;
+  width: 40%;
+  background-color: #d22926;
+  border: 15px solid #eca316;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#fazer-blast {
+  font-size: 35px;
+  width: 40%;
+  background-color: #bc53b8;
+  border: 15px solid #135fa3;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#golf {
+  font-size: 35px;
+  width: 40%;
+  background-color: #80ca5b;
+  border: 15px solid #996eb7;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#earcade {
+  font-size: 35px;
+  width: 40%;
+  background-color: #eca316;
+  border: 15px solid #135fa3;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#warcade {
+  font-size: 35px;
+  width: 40%;
+  background-color: #135fa3;
+  border: 15px solid #3d0e44;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#bowl {
+  font-size: 35px;
+  width: 40%;
+  background-color: #7a9ee6;
+  border: 15px solid #f3abd7;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#rr {
+  transform: translate(-50%, -100%);
+  z-index: 200;
+  position: absolute;
+  width: 50%;
+}
+
+#gg {
+  transform: translate(-45%, -100%);
+  z-index: 200;
+  position: absolute;
+  width: 40%;
+}
+
+#attractions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20%;
+}
+
+p {
+  margin-top: 40%;
 }
