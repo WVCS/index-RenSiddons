@@ -40,6 +40,7 @@ body {
 #rockstar-row {
   font-size: 35px;
   width: 40%;
+  height: 1000px;
   background-color: #d22926;
   border: 15px solid #eca316;
   border-radius: 40px;
@@ -50,6 +51,7 @@ body {
 #fazer-blast {
   font-size: 35px;
   width: 40%;
+  height: 1000px;
   background-color: #bc53b8;
   border: 15px solid #135fa3;
   border-radius: 40px;
@@ -60,6 +62,7 @@ body {
 #golf {
   font-size: 35px;
   width: 40%;
+  height: 1000px;
   background-color: #80ca5b;
   border: 15px solid #996eb7;
   border-radius: 40px;
@@ -70,6 +73,7 @@ body {
 #earcade {
   font-size: 35px;
   width: 40%;
+  height: 1000px;
   background-color: #eca316;
   border: 15px solid #135fa3;
   border-radius: 40px;
@@ -80,6 +84,7 @@ body {
 #warcade {
   font-size: 35px;
   width: 40%;
+  height: 1000px;
   background-color: #135fa3;
   border: 15px solid #3d0e44;
   border-radius: 40px;
@@ -90,6 +95,7 @@ body {
 #bowl {
   font-size: 35px;
   width: 40%;
+  height: 1000px;
   background-color: #7a9ee6;
   border: 15px solid #f3abd7;
   border-radius: 40px;
@@ -120,4 +126,96 @@ body {
 
 p {
   margin-top: 40%;
+}
+
+#header {
+  display: block;
+  margin-top: 30%;
+}
+
+#sectionheadhead {
+  font-size: 100px;
+}
+
+#sectionhead {
+  margin-bottom: 40%;
+}
+
+#gang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40%;
+}
+
+#feddy {
+  font-size: 35px;
+  width: 40%;
+  height: 1000px;
+  background-color: #7a9ee6;
+  border: 15px solid #eca316;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#chick {
+  font-size: 35px;
+  width: 40%;
+  height: 1000px;
+  background-color: #e7e5e5;
+  border: 15px solid #f3abd7;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#giga {
+  font-size: 35px;
+  width: 40%;
+  height: 1000px;
+  background-color: #80ca5b;
+  border: 15px solid #bc53b8;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#lowtiergod {
+  font-size: 35px;
+  width: 40%;
+  height: 1000px;
+  background-color: #996eb7;
+  border: 15px solid #80ca5b;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#sun {
+  font-size: 35px;
+  width: 40%;
+  height: 1000px;
+  background-color: #e7e5e5;
+  border: 15px solid #ffeb59;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#mun {
+  font-size: 35px;
+  width: 40%;
+  height: 1000px;
+  background-color: #135fa3;
+  border: 15px solid #eca316;
+  border-radius: 40px;
+  padding: 20px 50px;
+  display: inline-block;
+}
+
+#gangs {
+  transform: translate(-50%, -100%);
+  z-index: 200;
+  position: absolute;
 }
