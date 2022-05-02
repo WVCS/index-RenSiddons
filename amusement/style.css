@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "80s";
+  src: url(PORKYS_.ttf) format("truetype");
+}
+
 #title {
   background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/amusement/Looby.png");
   height: 600px;
@@ -126,6 +131,7 @@ body {
 
 p {
   margin-top: 40%;
+  font-family: "80s", sans-serif;
 }
 
 #header {
@@ -218,4 +224,68 @@ p {
   transform: translate(-50%, -100%);
   z-index: 200;
   position: absolute;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #eca316;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 10px solid #ffeb59;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 35px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #7a9ee6;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #7A9EE6;
+  min-width: 160px;
+  width: 197px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
 }
