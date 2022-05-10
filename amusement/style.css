@@ -138,9 +138,10 @@ background: linear-gradient(0deg, rgba(128,202,91,1) 0%, rgba(255,211,240,1) 35%
 
 #attractions {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20%;
+  margin-top: 20%;
 }
 
 p {
@@ -163,9 +164,10 @@ p {
 
 #gang {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40%;
+  margin-top: 40%;
 }
 
 #feddy {
@@ -337,6 +339,7 @@ p {
   #sectionheadhead {
   font-size: 35px;
 }
+  
 }
 
 @media only screen and (max-width: 800px) {
