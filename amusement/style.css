@@ -323,6 +323,15 @@ p {
   p {
     font-size: 30px;
   }
+  
+  #attractions {
+  display: flex;
+  flex-direction: column;
+}
+  
+  #sectionheadhead {
+  font-size: 35px;
+}
 }
 
 @media only screen and (max-width: 800px) {
