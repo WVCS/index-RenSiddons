@@ -348,4 +348,14 @@ p {
     width: 90vw;
     height: auto;
   }
+  
+  #attractions {
+  display: flex;
+  flex-direction: column;
+}
+  
+  #gang {
+  display: flex;
+  flex-direction: column;
+}
 }
