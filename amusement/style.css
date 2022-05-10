@@ -1,6 +1,6 @@
 @font-face {
   font-family: "80s";
-  src: url(PORKYS_.TTF) format("truetype");
+  src: url(PORKYS_.ttf) format("truetype");
 }
 
 #title {
@@ -10,9 +10,16 @@
   justify-content: center;
 }
 
+#maintitle {
+  height: 90%;
+  width: 100%
+  }
+
 body {
   margin: 0;
-  background-color: #7a9ee6;
+  background: rgb(128,202,91);
+background: linear-gradient(0deg, rgba(128,202,91,1) 0%, rgba(255,211,240,1) 35%, rgba(210,41,38,1) 67%, rgba(122,158,230,1) 100%);
+  cursor: url(https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/amusement/Pointer4.png), default;
 }
 
 #about {
@@ -27,6 +34,7 @@ body {
   border-radius: 40px;
   padding: 20px 50px;
   margin-bottom: 20%;
+  color: #eca316;
 }
 
 #logo {
@@ -51,6 +59,7 @@ body {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #eca316;
 }
 
 #fazer-blast {
@@ -62,6 +71,7 @@ body {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #135fa3;
 }
 
 #golf {
@@ -73,6 +83,7 @@ body {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #996eb7;
 }
 
 #earcade {
@@ -84,6 +95,7 @@ body {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #135fa3;
 }
 
 #warcade {
@@ -95,6 +107,7 @@ body {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #3d0e44;
 }
 
 #bowl {
@@ -106,6 +119,7 @@ body {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #f3abd7;
 }
 
 #rr {
@@ -163,6 +177,7 @@ p {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #eca316;
 }
 
 #chick {
@@ -174,6 +189,7 @@ p {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #f3abd7;
 }
 
 #giga {
@@ -185,6 +201,7 @@ p {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #bc53b8;
 }
 
 #lowtiergod {
@@ -196,28 +213,20 @@ p {
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #80ca5b;
 }
 
 #sun {
   font-size: 35px;
-  width: 40%;
+  width: 50%;
   height: 1000px;
-  background-color: #e7e5e5;
-  border: 15px solid #ffeb59;
-  border-radius: 40px;
-  padding: 20px 50px;
-  display: inline-block;
-}
-
-#mun {
-  font-size: 35px;
-  width: 40%;
-  height: 1000px;
-  background-color: #135fa3;
+  background: rgb(210,41,38);
+  background: linear-gradient(180deg, rgba(210,41,38,1) 0%,       rgba(19,95,163,1) 100%);
   border: 15px solid #eca316;
   border-radius: 40px;
   padding: 20px 50px;
   display: inline-block;
+  color: #eca316;
 }
 
 #gangs {
@@ -229,7 +238,7 @@ p {
 .navbar {
   overflow: hidden;
   background-color: #eca316;
-  font-family: "80s", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   border: 10px solid #ffeb59;
 }
 
@@ -248,7 +257,7 @@ p {
 }
 
 .dropdown .dropbtn {
-  cursor: pointer;
+  cursor: url(https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/amusement/Pointer4.png), default;
   font-size: 35px;  
   border: none;
   outline: none;
@@ -269,7 +278,6 @@ p {
   background-color: #7A9EE6;
   min-width: 160px;
   width: 197px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -288,4 +296,42 @@ p {
 
 .show {
   display: block;
+}
+
+#sectionheadhead {
+  color: white;
+}
+
+#sectionhead {
+  color: white;
+}
+#gangss {
+  transform: translate(-20%, -100%);
+  z-index: 199;
+  position: absolute;
+}
+
+#titlee {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/amusement/Looby.png");
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  margin-top: -20%;
+}
+
+@media only screen and (max-width: 1000px) {
+  p {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 20px;
+  }
+  
+  #maintitle {
+    width: 90vw;
+    height: auto;
+  }
 }
