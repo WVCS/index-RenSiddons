@@ -329,6 +329,11 @@ p {
   flex-direction: column;
 }
   
+  #gang {
+  display: flex;
+  flex-direction: column;
+}
+  
   #sectionheadhead {
   font-size: 35px;
 }
