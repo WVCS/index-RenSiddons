@@ -338,6 +338,10 @@ p {
   font-size: 35px;
 }
   
+  #title2 {
+    font-size: 35px;
+    float: left;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -350,13 +354,8 @@ p {
     height: auto;
   }
   
-  #attractions {
-  display: flex;
-  flex-direction: column;
-}
-  
-  #gang {
-  display: flex;
-  flex-direction: column;
-}
+  #title2 {
+    font-size: 25px;
+    float: left;
+  }
 }
