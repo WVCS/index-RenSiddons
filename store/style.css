@@ -97,15 +97,11 @@ input[type=submit] {
   text-align: center;
   background-color: #FFFFF0;
   width: 30%;
-  height: 1000px;
+  height: 850px;
 }
 
 .grid-item:hover {
   width: 32%;
-}
-
-button:hover {
-  height: 5%;
 }
 
 button {
