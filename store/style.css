@@ -98,6 +98,7 @@ input[type=submit] {
   background-color: #FFFFF0;
   width: 30%;
   height: 850px;
+  position: relative;
 }
 
 .grid-item:hover {
@@ -114,6 +115,10 @@ button {
   font-size: 40px;
   position: relative;
   bottom: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 @media only screen and (max-width: 1300px) {
