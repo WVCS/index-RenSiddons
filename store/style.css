@@ -156,3 +156,16 @@ button {
     font-size: 35px;
   }
 }
+
+li a {
+  font-size: 50px;
+  text-decoration: none;
+  color: #B22222;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+#home {
+  list-style-type: none;
+}
