@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> <img src="https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/Barrier_%2528held%2529_JE2_BE2.png" width="50px;"> </a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
 
+<div id="main">
+  <button class="openbtn" onclick="openNav()"> <img src="https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/AccessibilityButton.png" width="50px;"> </button>
+</div>
+  <div id="grass"> </div>
+  
+</body>
+</html>
+
+<script>
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
