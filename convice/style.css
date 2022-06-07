@@ -1,11 +1,13 @@
 body {
   background-color: #797979;
   margin: 0;
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/stonecrop.png");
+  background-size: 100px;
 }
 
 #grass {
-  height: 200px;
-  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/MC.png");
+  height: 100px;
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/grass_trans.png");
   background-size: 100px;
 }
 
@@ -55,6 +57,7 @@ body {
   cursor: pointer;
   color: white;
   border: none;
+  position: fixed;
 }
 
 #main {
@@ -65,4 +68,50 @@ body {
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+}
+
+.stuff {
+  width: 50%;
+  background-size: 10%;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 10px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/dirt.png") 30 round;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#coal {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/coal.png");
+  background-size: 100px;
+}
+
+#iron {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/iron.png");
+  background-size: 100px;
+}
+
+#redstone {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/redstone.png");
+  background-size: 100px;
+}
+
+#lapis {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/lapis.png");
+  background-size: 100px;
+}
+
+#gold {
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/convice/images/gold.png");
+  background-size: 100px;
+}
+
+#diamond {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKYysw0H5sa6O3Mvkx9UTvpX_nBcWNNaW4IUNmCM9XsZX86R_oOd614lcJcKsHrHVj0Ak:https://bugs.mojang.com/secure/attachment/209579/diamond_ore.png&usqp=CAU");
+  background-size: 100px;
 }
