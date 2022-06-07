@@ -1,3 +1,7 @@
+image-rendering: pixelated;
+image-rendering: -moz-crisp-edges;
+image-rendering: crisp-edges;
+
 body {
   background-color: #797979;
   margin: 0;
