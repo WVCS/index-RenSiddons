@@ -116,7 +116,7 @@ body {
   background-size: 100px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   #title {
     font-size: 25px;
     float: center;
