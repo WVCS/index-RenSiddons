@@ -115,3 +115,14 @@ body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKYysw0H5sa6O3Mvkx9UTvpX_nBcWNNaW4IUNmCM9XsZX86R_oOd614lcJcKsHrHVj0Ak:https://bugs.mojang.com/secure/attachment/209579/diamond_ore.png&usqp=CAU");
   background-size: 100px;
 }
+
+@media only screen and (max-width: 800px) {
+  #title {
+    font-size: 25px;
+    float: center;
+  }
+  
+  #video {
+    width: 100%;
+  }
+}
