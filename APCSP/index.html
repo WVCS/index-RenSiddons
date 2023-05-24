@@ -1,3 +1,100 @@
-<html>
-  TESTING IF THIS WORKS (IT WILL)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daydream Games</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/APCSP/images/daydream_studios_cropped_2.png">
+</head>
+<body>
+  <div class="image-cont">
+  <a class="image blue" href="daydream.html">
+
+  </a>
+  <a class="image orange" href="pandg.html">
+    
+  </a>
+  <a class="image yellow" href="beattheboss.html">
+    
+  </a>
+  <a class="image red" href="SCPBreak.html">
+    
+  </a>
+  <a class="image green" href="RoadRage.html">
+    
+  </a>
+</div>
+</body>
 </html>
+
+<style>
+  body{
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.image-cont{
+  background: rgb(255,204,0);
+background: linear-gradient(180deg, rgba(255,204,0,1) 0%, rgba(0,0,255,1) 100%);
+  display: flex;
+  width: 100%;
+}
+.image{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-size: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  transition: 0.2s ease-out;
+  filter: grayscale(100%);
+  backdrop-filter: grayscale(100%);
+}
+
+.image:hover{
+  opacity: 1;
+  padding: 0 150px 0 150px;
+  filter: none;
+}
+
+.blue{
+  background-size: contain;
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/APCSP/images/daydream_studios_cropped_2.png");
+  background-repeat: no-repeat;
+  padding; -50%;
+}
+
+.blue:hover{
+  backdrop-filter: none;
+}
+
+.orange{
+  background-size: cover;
+  background-image: url("https://raw.githubusercontent.com/WVCS/index-RenSiddons/main/APCSP/images/2b78d89836a42eebf986143bcb68ae19.jpg");
+  background-repeat: no-repeat;
+  padding; -50%;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+#logo {
+  padding: 50px;
+}
+</style>
